@@ -1,0 +1,143 @@
+@charset "ISO-8859-1";
+
+  .bg-blue-midium{
+        background-color: #749BC2;
+        color: #F6F4EB;
+    }
+    .bg-blue-dark{
+        background-color: #4682A9;
+        color: #F6F4EB;
+
+    }
+
+    .idance .classes-details ul.timetable {
+        margin: 0 0 22px;
+        padding: 0;
+    }
+    .idance .classes-details ul.timetable li {
+    list-style: none;
+    font-size: 15px;
+    color: #7f7f7f;
+}
+.idance .timetable {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.idance .timetable-item {
+    border: 1px solid #d8e3eb;
+    padding: 15px;
+    margin-top: 20px;
+    position: relative;
+    display: block;
+}
+@media (min-width: 768px) {
+    .idance .timetable-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+.idance .timetable-item-main {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+    margin-top: 12px;
+}
+@media (min-width: 768px) {
+    .idance .timetable-item-main {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+}
+.idance .timetable-item-time {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.idance .timetable-item-name {
+    font-size: 14px;
+    margin-bottom: 19px;
+}
+
+.idance .timetable-item-like {
+    display: none; /* Removed the heart icon and related styles */
+}
+.idance .timetable-item-like-count {
+    display: none; /* Removed the heart count and related styles */
+}
+.idance .timetable-item-book {
+    display: none; /* Removed the second button and related styles */
+}
+.idance .schedule .nav-tabs {
+    border-bottom: 2px solid  #344767;
+}
+.idance .schedule .nav-link {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalise;
+    color: #344767;
+    font-weight: 500;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    border-radius: 2px 2px 0 0;
+    padding-left: 0;
+    padding-right: 0;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .idance .schedule .nav-link {
+        font-size: 16px;
+    }
+}
+.idance .schedule .nav-link.active {
+    background:  #344767;
+    border-color: #344767;
+    color:#F6F4EB;
+}
+.idance .schedule .nav-link.active:focus {
+    border-color:  #344767;
+}
+.idance .schedule .nav-link:hover:not(.active) {
+    background:#749BC2 ;
+    border-color: #749BC2 ;
+    color: #F6F4EB;
+}
+.idance .schedule .tab-pane {
+    padding-top: 10px;
+}
+    .modal-dialog {
+        max-width: 600px;
+    }
+    .modal-body {
+        padding: 20px;
+    }
+    .btn-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: none; 
+    padding: 15px; /* Adjust padding for size */
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: none; /* Remove shadow */
+    color:#344767;
+
+  }
+
+
+  .btn-circle:hover {
+    color: #CC3945; /* Red background on hover */
+
+  }
+
+  .btn-circle-orange:hover {
+    color: #749BC2; /*  background on hover */
+  }
+  .btn-circle i {
+    font-size: 24px; /* Adjust the icon size as needed */
+  }
